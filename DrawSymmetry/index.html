@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Draw Symmetry</title>
+    <link href="public/css/styles.css" rel="stylesheet">    
+</head>
+<body>
+    <div class="container">
+        <div class="gameMenu">
+            <table class="menuTable">
+                <tr>
+                    <td>
+                        <div>
+                            <button id="clearBtn">Clear</button>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <button id="saveBtn">Save</button>
+                        </div>
+                    </td>
+                    <td>
+                        <span>Draw mode</span>
+
+                        <!--<input type="image" class="drawType selected" src="public/images/1.png" />
+        <input type="image" class="drawType" src="public/images/2.png" />
+        <input type="image" class="drawType" src="public/images/3.png" />
+        <input type="image" class="drawType" src="public/images/flower.png" />-->
+
+                        <div id="drawMode">
+                            <input type="radio" name="drawMode" id="1" value="1" checked="checked" />
+                            <label for="1"><img src="public/images/1.png" alt="Mode 1" /></label>
+
+                            <input type="radio" name="drawMode" id="2" value="2" />
+                            <label for="2"><img src="public/images/2.png" alt="Mode 2" /></label>
+
+                            <input type="radio" name="drawMode" id="3" value="3" />
+                            <label for="3"><img src="public/images/3.png" alt="Mode 3" /></label>
+
+                            <input type="radio" name="drawMode" id="4" value="4" />
+                            <label for="4"><img src="public/images/4.png" alt="Mode 4" /></label>
+
+                            <input type="radio" name="drawMode" id="5" value="5" />
+                            <label for="5"><img src="public/images/5.png" alt="Mode 5" /></label>
+
+                            <input type="radio" name="drawMode" id="6" value="6" />
+                            <label for="6"><img src="public/images/6.png" alt="Mode 6" /></label>
+
+                            <!--<input type="radio" name="drawMode" id="7" value="7" />
+                            <label for="7"><img src="public/images/7.png" alt="Mode 7" /></label>-->
+                        </div>
+
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <canvas id="myCanvas" width="500" height="500">
+            <p>Ваш браузер не поддерживает рисование.</p>
+        </canvas>
+
+        <div id="coordinates"></div>
+    </div>
+</body>
+</html>
+
+<script src="public/js/index.js"></script>

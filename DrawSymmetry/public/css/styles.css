@@ -1,0 +1,40 @@
+body {
+    background-color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: darkslategrey;
+    padding: 0;
+    margin: 0;
+}
+
+.gameMenu {
+    margin: 0 auto;
+    width: 800px;
+    padding: 30px;
+}
+    .gameMenu .sectionTitle {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+.menuTable {
+    /*border: 0;*/
+    border-collapse: collapse;
+}
+
+.drawType {
+    border: 1px solid #eee;
+    padding: 1px;
+}
+.drawType.selected {
+    background-color: #2196f3;
+}
+
+.container {
+    /*margin: 800px aut0;*/
+}
+
+#myCanvas {
+    background: #fff;
+    border: 1px solid black;
+}
